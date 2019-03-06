@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>推荐分享网站</title>
+		<link rel="stylesheet" type="text/css" href="css/Global.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery.1.4.4.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<!-- 
+			全局字体：微软雅黑  ,  字体大小：14px
+			头部区域，logo以及网站名称
+			
+		-->
+		<div class="all">
+		<!-- 头部导航栏  -->
+			<div class="head_wrap">
+				<div class="head">
+					<!--导航条logo图标-->
+					<div class="head_logo">
+						<a href="index.html"><img src="images/logo.png"/></a>
+					</div>
+					<!--导航条菜单-->
+					<div class="head_bar">
+						<ul>
+							<li><a href="index.html" style="color: #57adfd;">首页</a></li>
+							<li><a href="found_page.html">发现</a></li>
+							<li><a href="community.html">社区</a></li>
+							<li><a href="information.html">资讯</a></li>
+							<li><a href="app_load.html">APP下载</a></li>
+						</ul>
+					</div>
+					<!--导航条搜索框-->
+					<div class="head_ser">
+						<div class="ser_bar">
+							<input class="search" type="text" placeholder="搜索文章、帖子、用户" />
+							<button type="submit" class="s_ser"></button>
+						</div>
+						
+						
+						<!--导航条登录按钮-->
+						<div class="head_login">
+							<a href="login.html">登&nbsp;录</a>
+							<a href="login.html" style="background: none; color: #000;margin-left: 0px;" class="re">注&nbsp;册</a>
+						</div>
+					</div>
+					
+				</div><!--end head-->
+			</div>
+			<!-- 图片轮播  -->
+			<div class="banner">
+				<div id="home_banner">
+					<a id="big_a"><div id="big_img"></div></a>
+					<div class="relative">
+						<div id="small_img">
+							<div class="maxwidth">
+								<a id="small_pre"><img class="arr" src="images/arr_left.png" width="14px" height="40px" /></a>
+								<div id="small_imgs">
+									<a href="javascript:;" class="item"><div class="img" b="images/1.png" l="" theid="69"> <img src="images/1.png"/></div></a>
+									<a href="javascript:;" class="item"><div class="img" b="images/2.png" l="" theid="69"> <img src="images/2.png"/></div></a>
+									<a href="javascript:;" class="item"><div class="img" b="images/3.jpg" l="" theid="69"> <img src="images/3.jpg"/></div></a>
+									<a href="javascript:;" class="item"><div class="img" b="images/4.png" l="" theid="69"> <img src="images/4.png"/></div></a>
+									<a href="javascript:;" class="item"><div class="img" b="images/5.png" l="" theid="69"> <img src="images/5.png"/></div></a>
+									<a href="javascript:;" class="item"><div class="img" b="images/5.png" l="" theid="69"> <img src="images/5.png"/></div></a>
+								</div><!--end small_pre-->
+								<a id="small_next"><img class="arr" src="images/arr_right.png" width="14px" height="40px" /></a>
+							</div><!--end maxwidth-->
+						</div><!--end small_img-->
+					</div><!--end relative-->
+				</div><!--end home_banner-->
+			</div><!--end banner-->
+			<!--
+            	页面内容区域
+            	包含攻略精选与最新文章两个模块
+            -->
+			<div class="content">
+				<!--攻略精选模块-->
+				<div class="strategy_wrap">
+					<div class="strategy">
+						<h1>攻略精选<a href="found_page.html">查看更多</a></h1>
+						<!--攻略精选推荐图片区域-->
+						<div class="strategy_img">
+							<ul>
+								<li>
+									<img src="images/s1.jpg" />
+									<!--产品信息介绍-->
+									<div class="product_info">
+										<h3>
+											<a href="#">BlueLounge CAMPUS</a>
+										</h3>
+										<p>
+											<a href="#">BlueLounge CAMPU背包造型独特、简约，十分适合日常出街使用。</a>
+										</p>
+									</div>
+									<a href="#" class="mark_c"></a>
+								</li>
+								<li>
+									<img src="images/s2.jpg" />
+									<!--产品信息介绍-->
+									<div class="product_info">
+										<h3>
+											<a href="#">索尼MDR-1A限量版</a>
+										</h3>
+										<p>
+											<a href="#">MDR-1A限量版没有多余的颜色，也没有繁复的纹理，黑的深邃。</a>
+										</p>
+									</div>
+									<a href="#" class="mark_c"></a>
+								</li>
+								<li>
+									<img src="images/s3.jpg" />
+									<!--产品信息介绍-->
+									<div class="product_info">
+										<h3>
+											<a href="#">魅蓝X</a>
+										</h3>
+										<p>
+											<a href="#">这是一台迄今为止最旗舰的魅蓝系列手机。</a>
+										</p>
+									</div>
+									<!--此处当用户点击时跳转相应页面以及鼠标移动至上方会有效果-->
+									<a href="#" class="mark_c"></a>
+								</li>
+								<li>
+									<img src="images/s4.jpg" />
+									<!--产品信息介绍-->
+									<div class="product_info">
+										<h3>
+											<a href="#">小蚁微单相机M1</a>
+										</h3>
+										<p>
+											<a href="#">作为国内第一款微单相机，低价是小蚁微单相机最大的亮点。</a>
+										</p>
+									</div>
+									<a href="#" class="mark_c"></a>
+								</li>
+								<div class="f_clear"></div><!-- 对浮动进行清除 占位 -->
+							</ul>
+						</div><!--end strategy_img-->
+					</div><!--end strategy-->
+				</div><!--end strategy_wrap-->
+				<!--最新文章模块-->
+				<div class="new_article_wrap">
+					<div class="new_article">
+						<h1>最新文章</h1>
+						<div class="user_art">
+							<div class="art_left">
+								<!--用户发表文章-->
+								<div class="u_write">
+									<!--用户信息，
+									包括头像以及用户名称-->
+									<div class="user_info">
+										<a href="#"> <img src="images/head1.jpg" width="50px" height="50px" alt="用户头像"/> </a>
+										<div class="u_name">利剑</div>
+										<div class="u_time">1小时前</div>
+										<div class="f_clear"></div>
+									</div>
+									<!--用户发表的文章内容-->
+									<div class="user_msg">
+										<!--上传图片-->
+										<a href="#"> <img src="images/uMsg1.jpg" width="100%" alt="文章图片" /> </a>
+										<!--标题-->
+										<div class="u_title">
+											<a href="#" title="Super Mario Run 上架 App Store：手机终于可以玩马里奥了">Super Mario Run 
+												上架 App Store：手机终于可以玩马里奥了</a>
+										</div>
+										<!--该文章内容的简要描述-->
+										<div class="u_con">
+											<p>一如事前预告，任天堂终于在北京时间 12 月 16 日凌晨把 Super Mario Run 带到了 iOS 平台，
+												这也是马里奥系列游戏首次登陆非任天堂及移动设备平台。支持 iPho...</p>
+										</div>
+									</div>
+								</div><!--end u_write-->
+								
+								<!--用户发表文章-->
+								<div class="u_write">
+									<!--用户信息，
+									包括头像以及用户名称-->
+									<div class="user_info">
+										<a href="#"> <img src="images/head2.jpg" width="50px" height="50px" alt="用户头像"/> </a>
+										<div class="u_name">尾巴小组</div>
+										<div class="u_time">1小时前</div>
+										<div class="f_clear"></div>
+									</div>
+									<!--用户发表的文章内容-->
+									<div class="user_msg">
+										<!--上传图片-->
+										<a href="#"> <img src="images/uMsg2.jpg" width="100%" alt="『尾巴小组』每日精选：摘不下的世界" /> </a>
+										<!--标题-->
+										<div class="u_title">
+											<a href="#" title="『尾巴小组』每日精选：摘不下的世界">『尾巴小组』每日精选：摘不下的世界</a>
+										</div>
+										<!--该文章内容的简要描述-->
+										<div class="u_con">
+											<p>对于某些人来说，摘下眼镜意味着这个世界就只剩下模糊，我们生活在一个摘不下的世界。</p>
+										</div>
+									</div>
+								</div><!--end u_write-->
+								
+								<!--用户发表文章-->
+								<div class="u_write">
+									<!--用户信息，
+									包括头像以及用户名称-->
+									<div class="user_info">
+										<a href="#"> <img src="images/head3.jpg" width="50px" height="50px" alt="用户头像"/> </a>
+										<div class="u_name">wjseed</div>
+										<div class="u_time">1小时前</div>
+										<div class="f_clear"></div>
+									</div>
+									<!--用户发表的文章内容-->
+									<div class="user_msg">
+										<!--上传图片-->
+										<a href="#"> <img src="images/uMsg3.jpg" width="100%" alt="索尼 A99M2 到手，开箱加简单试用感受" /> </a>
+										<!--标题-->
+										<div class="u_title">
+											<a href="#" title="索尼 A99M2 到手，开箱加简单试用感受">索尼 A99M2 到手，开箱加简单试用感受</a>
+										</div>
+										<!--该文章内容的简要描述-->
+										<div class="u_con">
+											<p>在索尼刚发布 A99M2 的那一刻起，就一直对这台机器非常期待，虽然玩相机年头也不算太久远，
+												不过当年在什么都不懂的情况下第一台购入的单反就是索尼的 A200，还记...</p>
+										</div>
+									</div>
+								</div><!--end u_write-->
+								
+								<!--用户发表文章-->
+								<div class="u_write">
+									<!--用户信息，
+									包括头像以及用户名称-->
+									<div class="user_info">
+										<a href="#"> <img src="images/head4.jpg" width="50px" height="50px" alt="用户头像"/> </a>
+										<div class="u_name">深蓝Deep</div>
+										<div class="u_time">1小时前</div>
+										<div class="f_clear"></div>
+									</div>
+									<!--用户发表的文章内容-->
+									<div class="user_msg">
+										<!--上传图片-->
+										<a href="#"> <img src="images/uMsg4.jpg" width="100%" alt="一生必须到过的地方，带上妹子来青海旅拍" /> </a>
+										<!--标题-->
+										<div class="u_title">
+											<a href="#" title="一生必须到过的地方，带上妹子来青海旅拍">一生必须到过的地方，带上妹子来青海旅拍</a>
+										</div>
+										<!--该文章内容的简要描述-->
+										<div class="u_con">
+											<p>其实之前有在尾巴旅行的征文里发过关于青海旅拍的照片，也入选了。
+												不过由于照片张数的限制，当时只发了关于茶卡盐湖的9张。青海之美，
+												不止于茶卡。可以说，在青...</p>
+										</div>
+									</div>
+								</div><!--end u_write-->
+								
+								<!--用户发表文章-->
+								<div class="u_write">
+									<!--用户信息，
+									包括头像以及用户名称-->
+									<div class="user_info">
+										<a href="#"> <img src="images/head5.jpg" width="50px" height="50px" alt="用户头像"/> </a>
+										<div class="u_name">风吟vision</div>
+										<div class="u_time">1小时前</div>
+										<div class="f_clear"></div>
+									</div>
+									<!--用户发表的文章内容-->
+									<div class="user_msg">
+										<!--上传图片-->
+										<a href="#"> <img src="images/uMsg5.jpg" width="100%" alt="这部深蓝色的「无边框」手机，令我想起久违的 Nokia N9" /> </a>
+										<!--标题-->
+										<div class="u_title">
+											<a href="#" title="这部深蓝色的「无边框」手机，令我想起久违的 Nokia N9">这部深蓝色
+												的「无边框」手机，令我想起久违的 Nokia N9</a>
+										</div>
+										<!--该文章内容的简要描述-->
+										<div class="u_con">
+											<p>逐鹿中原数十载，巨人诺基亚在心里留下的除了一声叹息，还有一个湛蓝色的背影，
+												那是代表北欧设计风格的 Nokia N9。N9 的外衣是蓝色，它的血液也是蓝色的。纯净的...</p>
+										</div>
+									</div>
+								</div><!--end u_write-->
+							</div><!--end art_left-->
+							
+							<div class="art_right">
+								<div class="channel">
+									<p>频道分类</p>
+									<ul>
+										<li>
+											<img src="images/channel01.png" />
+											<a href="#">手机</a>
+										</li>
+										<li>
+											<img src="images/channel02.png" />
+											<a href="#">家居</a>
+										</li>
+										<li>
+											<img src="images/channel03.png" />
+											<a href="#">数码</a>
+										</li>
+										<li>
+											<img src="images/channel04.png" />
+											<a href="#">影音</a>
+										</li>
+										<li>
+											<img src="images/channel05.png" />
+											<a href="#">音乐</a>
+										</li>
+										<li>
+											<img src="images/channel06.png" />
+											<a href="#">摄影</a>
+										</li>
+										<li>
+											<img src="images/channel13.png" />
+											<a href="#">视频</a>
+										</li>
+										<li>
+											<img src="images/channel08.png" />
+											<a href="#">周边</a>
+										</li>
+										<li>
+											<img src="images/channel09.png" />
+											<a href="#">平板</a>
+										</li>
+										<li>
+											<img src="images/channel10.png" />
+											<a href="#">图书</a>
+										</li>
+										<li>
+											<img src="images/channel11.png" />
+											<a href="#">旅行</a>
+										</li>
+										<li>
+											<img src="images/channel12.png" />
+											<a href="#">电脑</a>
+										</li>
+										<div class="f_clear"></div>
+									</ul>
+								</div>
+								<div class="channel">
+									<p>热门专题</p>
+									<div class="hot_top">
+										<img src="images/top01.png" />
+										<img src="images/top02.png" />
+										<img src="images/top03.png" />
+										<img src="images/top04.png" />
+									</div>
+								</div>
+								<div class="channel">
+									<p>精选话题</p>
+									<div class="hot_top">
+										<img src="images/g01.png" />
+										<img src="images/g02.png" />
+										<img src="images/g03.png" />
+									</div>
+								</div>
+								
+								
+							</div><!--end art_right-->
+							<div class="f_clear"></div><!-- 对浮动进行清除 占位 -->
+						</div><!--end user_art-->
+					</div><!--end new_article-->
+				</div><!--end new_article_wrap-->
+			</div><!--end content-->
+			
+			
+		</div><!--end all-->
+	</body>
+</html>
